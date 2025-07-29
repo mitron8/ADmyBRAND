@@ -1,37 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 ADmyBRAND Marketing UI
 
-## Getting Started
+A responsive, modern, animated marketing UI for a SaaS platform — **ADmyBRAND**. Built using **React (Next.js)** with **Framer Motion**, **GSAP**, and custom **CSS modules**. This UI includes all major homepage sections and is production-ready.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📦 Components Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Component     | Description |
+|---------------|-------------|
+| `Hero`        | Animated introduction with live metrics and CTA buttons |
+| `Sidebar`     | Sticky vertical sidebar navigation for desktop & mobile |
+| `Dashboard`   | Visual representation of campaign metrics |
+| `Features`    | Highlight your product capabilities |
+| `Testimonials`| Client feedback with animated cards |
+| `Footer`      | Simple, clean footer with links or info |
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖼️ Image Assets
 
-## Learn More
+Place these in your `/public` folder:
 
-To learn more about Next.js, take a look at the following resources:
+components/
+│
+├── Hero.jsx # Hero section
+├── Hero.css
+│
+├── Sidebar.jsx # Sidebar navigation
+├── Sidebar.css
+│
+├── Dashboard.jsx # Mini dashboard visuals
+├── Dashboard.css
+│
+├── Features.jsx # Features list or cards
+├── Features.css
+│
+├── Testimonials.jsx # Animated client feedback
+├── Testimonials.css
+│
+├── Footer.jsx # Site footer
+└── Footer.css
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm install
+Open in browser
+Go to http://localhost:3000
 
-## Deploy on Vercel
+📱 Responsive Design
+✅ Mobile-first
+✅ Sidebar adapts for mobile
+✅ Hero & testimonial content centered on small screens
+✅ Prevents horizontal scroll issues
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✨ Animations
+GSAP handles metric transitions in the Hero
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# ADmyBRAND" 
+
+Framer Motion animates testimonial cards on scroll
+
+Subtle hover/enter animations for interactivity
+Live Demo :https://ad-my-brand-rouge.vercel.app/
+
