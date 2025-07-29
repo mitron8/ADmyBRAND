@@ -25,7 +25,7 @@ export default function SidebarNavbar() {
  {/* Toggle Button (top-right on mobile only) */}
 <button
   onClick={() => setOpen(!open)}
-  className="fixed top-3 right-6 z-50 bg-[#0F172A] text-white p-2 rounded-md border border-gray-700 md:hidden"
+  className="fixed top-3 right-12 z-50 bg-[#0F172A] text-white p-2 rounded-md border border-gray-700 md:hidden"
 >
   {open ? <X size={24} /> : <Menu size={24} />}
 </button>

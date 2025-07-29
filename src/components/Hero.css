@@ -65,6 +65,7 @@
   .hero-buttons {
     justify-content: flex-start;
   }
+ 
 }
 
 .btn-primary {
@@ -88,7 +89,7 @@
 /* Live Metrics Box */
 .hero-info-card {
   background-color: #1e293b;
-  width: 400px;
+  width: auto;
   height: 100px;
 
   padding: 1.5rem;
